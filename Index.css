@@ -1,0 +1,180 @@
+/* navbar definition */
+.navbar a.active {
+    background-color: #010e09;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(140, 14, 60);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(83, 12, 35);
+    color: rgb(50, 127, 182);
+}
+
+/* Title in the head */
+.Name {
+    font-size: 540%;
+    color: rgb(255, 255, 255);
+    font-family: Brush Script MT;
+    text-align:center;
+    background-image: url('background_picture.jpg');
+    background-position: center;
+}
+
+/* Foot definition */
+.foot {
+    font-family: Brush Script MT”;
+    text-align: center;
+    font-size: 500%;
+    color: rgb(203, 35, 57);
+    font-family: Brush Script MT;
+}
+
+/* White castle image */
+.CastleImage {
+    max-width:100%;
+    width: 40%;
+    display: block;
+    margin: 0px auto;
+}
+
+/* Dishes definition in menu page */
+.food {
+    color: rgb(14, 72, 49);
+    text-align: center;
+}
+
+/* Price definition in menu page */
+.price {
+    color: rgb(203, 91, 124);
+    text-align: center;
+    font-size:larger;
+}
+
+/* rotating fork in menu page */
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 2s linear infinite;
+}
+
+/* Wine Image definition in menu page*/
+#WineImage {
+    height: 100px;
+    width: 80px;
+    display: block;
+    margin: 0px auto;
+}
+
+/* Titles in menu page */
+.Menu_Title {
+    text-align:center;
+    font-size:larger;
+    font-weight:bold;
+}
+
+/*Title for booking page*/
+.book_h1 {
+    font-size:250%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Title for booking page*/
+.book_h2 {
+    font-size:200%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Title for booking page*/
+.book_h3 {
+    font-size:150%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Title for booking page*/
+.book_main {
+    text-align:center;
+    font-size: larger;
+}
+
+/*For side style start*/
+.bodyForside{
+    background-image: url('background_picture.jpg');
+    background-attachment: unset;
+    background-position: center;
+}
+/*For side style*/
+.flex-container {
+    margin: 5%;
+    font-family: Georgia, serif;
+    color: rgb(13, 13, 64);
+    display: flexbox;
+    background-color: rgba(244, 240, 236, 0.77);
+}
+/*For side style*/
+.navBarForside a.active {
+    background-color: #3b3b32;
+    color: white;
+}
+/*For side style*/
+.navBarForside {
+    background-color: rgba(79, 67, 72, 0.475);
+    overflow: hidden;
+}
+/*For side style*/
+.navBarForside a {
+    float: left;
+    color: #1b1818;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*For side style*/
+.navBarForside a:hover {
+    background-color: rgb(99, 101, 103);
+    color: rgb(65, 12, 213);
+}
+/*For side style*/
+#intro::first-letter {
+    line-height: 25px;
+    font-size: 50px;
+    float: left;
+    font-family: Georgia, serif;
+}
+/*For side style end*/
+
+@media (max-width: 680px) {
+    .navBarForside {
+        display: grid;
+    }
+    .navbar{
+        display: grid; 
+    }
+}
+
+
+
+

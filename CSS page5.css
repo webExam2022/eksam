@@ -1,0 +1,58 @@
+.navbar a.active {
+    background-color: #010e09;
+    color: white;
+}
+
+.navbar {
+    background-color: rgb(140, 14, 60);
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background-color: rgb(83, 12, 35);
+    color: rgb(50, 127, 182);
+}
+
+#Name {
+    font-size: 540%;
+    color: rgb(203, 35, 57);
+    font-family: Brush Script MT;
+    margin-left: 30%;
+}
+
+.CastleImage {
+    height: 200px; 
+    width: 200px;
+    display: block;
+    margin: 0px auto;
+}
+
+.banner {
+    background-image:
+    url(https://www.multek.com/sites/default/files/styles/slick_slides/public/2017-09/tech-banner-03.jpg?itok=6r2iOoyJ);
+  }
+
+.question{
+    font-weight:bold;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+#titleBox {
+  background-color: #cfc ;
+  padding: 10px ;
+  border: 1px solid green ;
+}
