@@ -159,7 +159,7 @@
 }
 /*For side style*/
 #intro::first-letter {
-    line-height: 25px;
+    line-height: 40px;
     font-size: 50px;
     float: left;
     font-family: Georgia, serif;
