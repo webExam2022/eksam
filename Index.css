@@ -154,6 +154,7 @@
 }
 /*For side style*/
 .navBarForside {
+    text-decoration: none;
     background-color: rgba(79, 67, 72, 0.475);
     overflow: hidden;
 }
